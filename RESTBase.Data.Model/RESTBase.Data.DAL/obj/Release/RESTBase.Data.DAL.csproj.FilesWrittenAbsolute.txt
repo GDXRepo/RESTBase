@@ -1,0 +1,7 @@
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Release/RESTBase.Data.DAL.dll.config
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Release/RESTBase.Data.DAL.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/obj/Release/RESTBase.Data.DAL.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Release/linq2db.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Release/MySql.Data.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Release/RESTBase.Data.Model.dll

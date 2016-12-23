@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{9B74DA40-DDEE-4540-86B6-890F320EAB92}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RESTBase.Web/Web.config">
+    <Files>
+      <File FileName="RESTBase.Web/Controller/UtilsController.cs" Line="21" Column="20" />
+      <File FileName="RESTBase.Data.Model/RESTBase.Data.DAL/Adapter.cs" Line="22" Column="1" />
+      <File FileName="RESTBase.Web/Web.config" Line="11" Column="139" />
+      <File FileName="RESTBase.Data.Model/RESTBase.Data.DAL/DB.cs" Line="40" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RESTBase.Web PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/Adapter.cs" line="26" column="5" />
+      <Breakpoint file="/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/Adapter.cs" line="25" column="1" />
+      <Breakpoint file="/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/Adapter.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <version>3.3.2</version>
+    <authors>Simple Injector Contributors</authors>
+    <owners>Simple Injector Contributors</owners>
+    <licenseUrl>https://simpleinjector.org/license</licenseUrl>
+    <projectUrl>https://simpleinjector.org/webapi</projectUrl>
+    <iconUrl>https://simpleinjector.org/simpleinjector.ico</iconUrl>
+    <dependencies>
+      <dependency id="SimpleInjector" version="3.3.2" />
+      <dependency id="SimpleInjector.Extensions.ExecutionContextScoping" version="3.3.2" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.20710" />
+    </dependencies>
+    <id>SimpleInjector.Integration.WebApi</id>
+    <title>Simple Injector ASP.NET Web API Integration</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple Injector ASP.NET Web API Integration.</description>
+    <summary>ASP.NET Web API integration for Simple Injector.</summary>
+    <copyright>Simple Injector Contributors 2014 - 2016</copyright>
+    <language>en-US</language>
+    <tags>simpleinjector Web API webapi architecture dependency-injection DI easy easy-to-use Inversion-of-Control IOC DependencyResolver</tags>
+  </metadata>
+</package>

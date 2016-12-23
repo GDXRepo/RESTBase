@@ -1,0 +1,3 @@
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Debug/linq2db.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/RESTBase.Data.DAL/bin/Debug/MySql.Data.dll

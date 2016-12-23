@@ -1,0 +1,5 @@
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/bin/Debug/RESTBase.Data.Model.dll.mdb
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/bin/Debug/RESTBase.Data.Model.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/obj/Debug/RESTBase.Data.Model.dll
+/Users/gmalyukov/Projects/RESTBase/RESTBase.Data.Model/obj/Debug/RESTBase.Data.Model.dll.mdb
