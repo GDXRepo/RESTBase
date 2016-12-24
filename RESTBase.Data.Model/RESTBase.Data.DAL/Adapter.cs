@@ -19,12 +19,10 @@ namespace RESTBase.Data.DAL
 
 		public T GetFirstOrDefault<T>(Expression<Func<T, bool>> predicate) where T : class
 		{
-			var db = new DB();
-			//using (var db = new DB())
-			//{
-				db.Execute("SELECT * FROM `translate`");
+			using (var db = new DB())
+			{
 				return db.GetTable<T>().FirstOrDefault(predicate);
-			//}
+			}
 		}
 
 		public IEnumerable<T> GetWhere<T>(Expression<Func<T, bool>> predicate) where T : class

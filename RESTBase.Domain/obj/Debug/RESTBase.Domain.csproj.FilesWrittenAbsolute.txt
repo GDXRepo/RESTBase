@@ -5,3 +5,10 @@
 /Users/gmalyukov/Projects/RESTBase/RESTBase.Domain/obj/Debug/RESTBase.Domain.dll.mdb
 /Users/gmalyukov/Projects/RESTBase/RESTBase.Domain/bin/Debug/RESTBase.Data.Model.dll
 /Users/gmalyukov/Projects/RESTBase/RESTBase.Domain/bin/Debug/RESTBase.Data.Model.dll.mdb
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/bin/Debug/RESTBase.Domain.dll.mdb
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/bin/Debug/RESTBase.Domain.dll
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/obj/Debug/RESTBase.Domain.dll
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/obj/Debug/RESTBase.Domain.dll.mdb
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/bin/Debug/RESTBase.Data.Model.dll
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Domain/bin/Debug/RESTBase.Data.Model.dll.mdb
