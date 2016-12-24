@@ -1,6 +1,7 @@
 ﻿namespace RESTBase.Web
 {
-	public interface IResponse
+	public interface IResponseData
 	{
+		
 	}
 }

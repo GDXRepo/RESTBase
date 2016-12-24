@@ -21,16 +21,6 @@ namespace RESTBase.Data.DAL
 
 			// Utils
 
-			fmb.Entity<Common>()
-			   .HasTableName("common")
-			   .HasPrimaryKey(x => x.common_id)
-			   .HasIdentity(x => x.common_id);
-
-			fmb.Entity<Language>()
-			   .HasTableName("language")
-			   .HasPrimaryKey(x => x.language_id)
-			   .HasIdentity(x => x.language_id);
-
 			fmb.Entity<Translate>()
 			   .HasTableName("translate")
 			   .HasPrimaryKey(x => x.translate_id)

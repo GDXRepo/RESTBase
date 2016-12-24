@@ -7,7 +7,7 @@ namespace RESTBase.Web
 	[RoutePrefix("utils")]
 	public class UtilsController : ApiController
 	{
-		IUtilsService _service;
+		readonly IUtilsService _service;
 
 		public UtilsController(IUtilsService service)
 		{
@@ -18,21 +18,14 @@ namespace RESTBase.Web
 		[Route("translate")]
 		public IResponse Translate([FromUri()] TranslateRequest req)
 		{
-			if (req == null)
+			if (req == null || req != null && !req.Validate())
 			{
-				return new ErrorResponse();
+				return ResponseWrapper.Failure(ErrorCode.BadRequest);
 			}
-			Translate res = _service.Translate(req.Tag);
+			Translate t = _service.Translate(req.Tag);
+			var res = new TranslateResponse(t);
 
-			if (res == null)
-			{
-				return new ErrorResponse();
-			}
-			return new TranslateResponse
-			{
-				Tag = req.Tag,
-				Translation = res.value
-			};
+			return ResponseWrapper.Success(res);
 		}
 	}
 }
