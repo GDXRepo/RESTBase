@@ -18,14 +18,14 @@ namespace RESTBase.Web
 		[Route("translate")]
 		public IResponse Translate([FromUri()] TranslateRequest req)
 		{
-			if (req == null || req != null && !req.Validate())
+			if (!BaseRequest.Validate(req))
 			{
-				return ResponseWrapper.Failure(ErrorCode.BadRequest);
+				return BaseRequest.CreateErrorResponse(ErrorCode.BadRequest);
 			}
 			Translate t = _service.Translate(req.Tag);
 			var res = new TranslateResponse(t);
 
-			return ResponseWrapper.Success(res);
+			return BaseRequest.CreateSuccessResponse(res);
 		}
 	}
 }

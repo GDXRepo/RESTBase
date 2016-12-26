@@ -1,10 +1,10 @@
 ﻿namespace RESTBase.Web
 {
-	public class TranslateRequest : IRequest
+	public class TranslateRequest : BaseRequest
 	{
 		public string Tag { get; set; }
 
-		public bool Validate()
+		public override bool IsValid()
 		{
 			return Tag != null;
 		}

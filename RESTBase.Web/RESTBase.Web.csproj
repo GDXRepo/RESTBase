@@ -79,9 +79,10 @@
     <Compile Include="Models\Base\Request\IRequest.cs" />
     <Compile Include="Models\Base\Response\IResponse.cs" />
     <Compile Include="Models\Base\Response\IResponseData.cs" />
-    <Compile Include="Models\Base\Response\Response.cs" />
     <Compile Include="Models\Requests\TranslateRequest.cs" />
     <Compile Include="Models\Responses\TranslateResponse.cs" />
+    <Compile Include="Models\Base\Request\BaseRequest.cs" />
+    <Compile Include="Models\Base\Response\BaseResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

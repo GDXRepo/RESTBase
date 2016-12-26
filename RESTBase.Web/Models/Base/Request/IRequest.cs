@@ -1,8 +1,7 @@
-﻿using System;
-namespace RESTBase.Web
+﻿namespace RESTBase.Web
 {
 	public interface IRequest
 	{
-		bool Validate();
+		bool IsValid();
 	}
 }
