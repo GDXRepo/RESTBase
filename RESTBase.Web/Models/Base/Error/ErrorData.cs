@@ -5,9 +5,9 @@
 		public int Code { get; }
 		public string Message { get; }
 
-		public ErrorData(int code, string message) 
+		public ErrorData(ErrorCode code, string message) 
 		{
-			Code = code;
+			Code = (int)code;
 			Message = message.Trim();
 		}
 	}

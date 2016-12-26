@@ -15,12 +15,12 @@
 
 		public static IResponse CreateErrorResponse(ErrorCode code)
 		{
-			var tuple = ErrorDescription.For(code);
+			var message = ErrorMessage.Messages[(int)code];
 
 			return new BaseResponse
 			{
 				Result = null,
-				Error = new ErrorData(tuple.Item1, tuple.Item2)
+				Error = new ErrorData(code, message)
 			};
 		}
 

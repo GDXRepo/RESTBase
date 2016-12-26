@@ -36,3 +36,4 @@
 /Users/gmalyukov/!Reps/RESTBase/RESTBase.Web/bin/RESTBase.Domain.dll
 /Users/gmalyukov/!Reps/RESTBase/RESTBase.Web/bin/RESTBase.Domain.dll.mdb
 /Users/gmalyukov/!Reps/RESTBase/RESTBase.Web/bin/linq2db.dll
+/Users/gmalyukov/!Reps/RESTBase/RESTBase.Web/obj/Debug/RESTBase.Web.App_GlobalResources.AppResources.resources

@@ -73,8 +73,7 @@
     </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controller\UtilsController.cs" />
-    <Compile Include="Models\Base\Error\ErrorCode.cs" />
-    <Compile Include="Models\Base\Error\ErrorDescription.cs" />
+    <Compile Include="Models\Base\Error\ErrorMessage.cs" />
     <Compile Include="Models\Base\Error\ErrorData.cs" />
     <Compile Include="Models\Base\Request\IRequest.cs" />
     <Compile Include="Models\Base\Response\IResponse.cs" />
@@ -83,6 +82,9 @@
     <Compile Include="Models\Responses\TranslateResponse.cs" />
     <Compile Include="Models\Base\Request\BaseRequest.cs" />
     <Compile Include="Models\Base\Response\BaseResponse.cs" />
+    <Compile Include="App_GlobalResources\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -93,6 +95,7 @@
     <Folder Include="Models\Base\Response\" />
     <Folder Include="Models\Requests\" />
     <Folder Include="Models\Responses\" />
+    <Folder Include="App_GlobalResources\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RESTBase.Data.Model\RESTBase.Data.Models.csproj">
@@ -107,6 +110,12 @@
       <Project>{D9415648-D038-4283-B56E-DE3E2FA9C59F}</Project>
       <Name>RESTBase.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
