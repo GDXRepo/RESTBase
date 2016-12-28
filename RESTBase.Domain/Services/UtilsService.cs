@@ -1,5 +1,4 @@
-﻿using System;
-using RESTBase.Data.Models;
+﻿using RESTBase.Data.Models;
 
 namespace RESTBase.Domain
 {

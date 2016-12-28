@@ -23,9 +23,9 @@ namespace RESTBase.Web
 				return BaseRequest.CreateErrorResponse(ErrorCode.BadRequest);
 			}
 			Translate t = _service.Translate(req.Tag);
-			var res = new TranslateResponse(t);
+			var data = new TranslateResponseData(t);
 
-			return BaseRequest.CreateSuccessResponse(res);
+			return BaseRequest.CreateSuccessResponse(data);
 		}
 	}
 }

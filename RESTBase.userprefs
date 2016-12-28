@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{9B74DA40-DDEE-4540-86B6-890F320EAB92}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="RESTBase.Web/Controller/UtilsController.cs">
     <Files>
-      <File FileName="RESTBase.Web/Controller/UtilsController.cs" Line="2" Column="28" />
+      <File FileName="RESTBase.Web/Models/Responses/TranslateResponseData.cs" Line="10" Column="44" />
+      <File FileName="RESTBase.Web/Controller/UtilsController.cs" Line="26" Column="44" />
+      <File FileName="RESTBase.Web/Models/Requests/TranslateRequest.cs" Line="7" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -2,7 +2,7 @@
 {
 	public interface IResponse
 	{
-		IResponseData Result { get; set; }
 		ErrorData Error { get; set; }
+		IResponseData Result { get; set; }
 	}
 }

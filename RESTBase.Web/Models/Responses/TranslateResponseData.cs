@@ -2,12 +2,12 @@
 
 namespace RESTBase.Web
 {
-	public class TranslateResponse : IResponseData
+	public class TranslateResponseData : IResponseData
 	{
 		public string Tag { get; set; }
 		public string Translation { get; set; }
 
-		public TranslateResponse(Translate t)
+		public TranslateResponseData(Translate t)
 		{
 			if (t != null)
 			{
